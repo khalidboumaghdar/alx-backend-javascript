@@ -1,5 +1,4 @@
-var displayMessage=function(){
-        console.log("STDOUT");
-
+function displayMessage(message) {
+    console.log(message);
 }
-displayMessage();
+displayMessage("STDOUT");
