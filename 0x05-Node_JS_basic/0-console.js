@@ -1,5 +1,5 @@
 var displayMessage=function(){
-	console.log("STDOUT");
+        console.log("STDOUT");
 
 }
 displayMessage();
