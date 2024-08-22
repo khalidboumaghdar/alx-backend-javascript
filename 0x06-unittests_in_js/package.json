@@ -4,17 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha \"2-calcul_chai.test.mjs\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^5.1.1",
-    "mocha": "^10.7.3"
-  },
-  "scripts": {
-  "test": "mocha \"2-calcul_chai.test.mjs\""
-}
-
+    "mocha": "^10.7.3",
+    "sinon": "^18.0.0"
+  }
 }
